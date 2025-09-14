@@ -1,0 +1,17 @@
+# Ignore common large/unwanted files
+*.pdf
+*.zip
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.exe
+*.ps1
+*.psm1
+Tyrannosaurusrock/
+__pycache__/
+*.log
+.vscode/
+.env
+.DS_Store
+

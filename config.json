@@ -1,0 +1,11 @@
+{
+  "rules": ["rule_http_5xx", "rule_failed_login"],
+  "alerts": {
+    "console": true,
+    "webhook": "https://example.com/webhook",
+    "webhook_secret": "mysecret",
+    "webhook_max_attempts": 3,
+    "webhook_base_backoff": 0.5
+  },
+  "log_level": "INFO"
+}

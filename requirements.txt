@@ -1,0 +1,12 @@
+# Core dependencies for parsing/processing
+pandas
+
+# Optional / advanced features (anomaly detection, LLMs, UI)
+scikit-learn
+nltk
+joblib
+openai
+streamlit
+tensorflow
+pyyaml
+requests

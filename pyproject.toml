@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-siem-system"
+version = "0.1.0"
+description = "Prototype SIEM system for ingesting, parsing and alerting on logs"
+authors = [ { name = "Example Author", email = "author@example.com" } ]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = ["siem", "security", "logs", "parsing"]
+classifiers = [
+	"Development Status :: 3 - Alpha",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: MIT License",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.scripts]
+siem-run = "run:main"
+siem-replay = "siem.replay:main"
+siem-dead-letter = "siem.dead_letter:main"
+siem-dead-letter-admin = "siem.dead_letter_admin:main"
